@@ -33,20 +33,19 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+              Hello, I’m Yaseen, I’m a Full-stack developer, I build user-friendly,
+              dynamic, well-designed, good-looking, and interactive websites. I'm currently
+              studying coursework at Microverse, a remote software development school where
+              we learn by building projects and collaborating with other devs all around the
+              world via pair programming. 
           </p>
           <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+              I enjoy the process of thinking and coming up with algorithms to solve
+              particular problems so much so that sometimes I spend my spare-time solving
+              hacker rank challenges
           </p>
-          <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
-          </p>
-        </div>
+          
+         </div>
 
         <div className="stage-cube-cont">
           <div className="cubespinner">
