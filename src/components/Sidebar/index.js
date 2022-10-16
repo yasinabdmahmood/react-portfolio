@@ -1,13 +1,13 @@
 import './index.scss'
 import { useState } from 'react'
-import LogoS from '../../assets/images/logo-s.png'
-import LogoSubtitle from '../../assets/images/logo_sub.png'
+import LogoY from '../../assets/images/y.png'
+import LogoSubtitle from '../../assets/images/yaseen.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
-  faGithub,
-  faYoutube,
-  faSkype,
+  faGithub,  
+  faGitlab,
+  faAngellist,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
@@ -28,7 +28,7 @@ const Sidebar = () => {
         className="logo"
         to="/"
         onClick={() => setShowNav(false)}>
-        <img src={LogoS} alt="Logo" />
+        <img src={LogoY} alt="Logo" />
         <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
       </Link>
       <nav className={showNav ? 'mobile-show' : ''}>
@@ -72,7 +72,7 @@ const Sidebar = () => {
       <ul>
         <li>
           <a
-            href="https://www.linkedin.com/in/slobodan-gaji%C4%87-006bb8b8/"
+            href="https://www.linkedin.com/in/yaseen-abdalwahid/"
             target="_blank"
             rel="noreferrer"
           >
@@ -85,7 +85,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://github.com/bobangajicsm"
+            href="https://github.com/yasinabdmahmood"
             target="_blank"
             rel="noreferrer"
           >
@@ -98,21 +98,21 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw"
+            href="https://gitlab.com/yasinabdmahmood"
             rel="noreferrer"
             target="_blank"
           >
             <FontAwesomeIcon
-              icon={faYoutube}
+              icon={faGitlab}
               color="#4d4d4e"
               className="anchor-icon"
             />
           </a>
         </li>
         <li>
-          <a href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
+          <a href="https://angel.co/u/yaseen-abdalwahid" rel="noreferrer" target="_blank">
             <FontAwesomeIcon
-              icon={faSkype}
+              icon={faAngellist}
               color="#4d4d4e"
               className="anchor-icon"
             />
