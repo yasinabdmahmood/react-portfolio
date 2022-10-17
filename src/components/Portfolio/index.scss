@@ -111,3 +111,37 @@
         }
     }
 }
+
+.Skills {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 10rem;
+
+    h2 {
+        font-size: 4rem;
+        font-weight: 700;
+        color: #ffd700;
+        transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+        &:hover {
+            transform: scale(1.2);
+            color: white;
+        }
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+        li {
+            font-size: 2rem;
+            color: white;
+            &:hover {
+                transform: translateY(-3px);
+                color: #1eee28;
+            }
+        }
+    }
+}

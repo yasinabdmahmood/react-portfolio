@@ -62,13 +62,68 @@ const Portfolio = () => {
                 <h1 className="page-title">
                     <AnimatedLetters
                         letterClass={letterClass}
-                        strArray={"Portfolio".split("")}
+                        strArray={"Skills  &  Experience".split("")}
                         idx={15}
                     />
                 </h1>
+                <div className="Skills">
+                    <div className="cata">
+                     <h2>
+                     <AnimatedLetters
+                        letterClass={letterClass}
+                        strArray={"Languages".split("")}
+                        idx={15}
+                    />
+                     </h2>
+                        <ul>
+                            <li><span>Javascript</span></li>
+                            <li><span>Ruby</span></li>
+                            <li><span>Html</span></li>
+                            <li><span>CSS</span></li>
+                        </ul>
+                    </div>
+                    <div className="cata">
+                     <h2>
+                     <AnimatedLetters
+                        letterClass={letterClass}
+                        strArray={"Frameworks".split("")}
+                        idx={15}
+                    />
+                     </h2>
+                        <ul>
+                            <li><span>Bootstrap</span></li>
+                            <li><span>React</span></li>
+                            <li><span>Ruby onRails</span></li>
+                            
+                        </ul>
+                    </div>
+                    <div className="cata">
+                     <h2>
+                     <AnimatedLetters
+                        letterClass={letterClass}
+                        strArray={"Skills".split("")}
+                        idx={15}
+                    />
+                     </h2>
+                        <ul>
+                            <li><span>Githaub</span></li>
+                            <li><span>Gitllab</span></li>
+                            <li><span>TDD</span></li>
+                            <li><span>Git</span></li>
+                            <li><span>Redux.js</span></li>
+                            <li><span>Mentoring</span></li>
+                            <li><span>Netlify</span></li>
+                            <li><span>jQuery</span></li>
+                            <li><span>Pair Programming</span></li>
+                            <li><span>Chrome Developer Tools</span></li>
+                        </ul>
+                    </div>
+                </div>
+                    
                 <div>{renderPortfolio(portfolio)}</div>
             </div>
             <Loader type="pacman" />
+            
         </>
     );
 }
