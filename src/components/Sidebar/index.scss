@@ -89,6 +89,12 @@
           content: 'CONTACT';
         }
       }
+
+      a.my-work {
+        &:after {
+          content: 'My Work';
+        }
+      }
   
       a.portfolio-link {
         &:after {
