@@ -17,8 +17,8 @@ const  projects = [
         img:p2,
         name:'To do List',
         discription: 'The Tower of Hanoi is a classic game of logical thinking and sequential reasoning. Move rings from one tower to another but make sure you follow the rules! ,built with vanilla JavaScript',
-        liveDomo: 'https://yasinabdmahmood.github.io/Tower-of-Hanoi/src/',
-        gitHubLink: 'https://github.com/yasinabdmahmood/Tower-of-Hanoi',
+        liveDomo: 'https://yasinabdmahmood.github.io/To-do-list/dist/',
+        gitHubLink: 'https://github.com/yasinabdmahmood/To-do-list',
         technologies:['HTML5','CSS3','JavaScript']
     },
     {   
@@ -26,8 +26,8 @@ const  projects = [
         img:p3,
         name:'Awesome books',
         discription: 'The Tower of Hanoi is a classic game of logical thinking and sequential reasoning. Move rings from one tower to another but make sure you follow the rules! ,built with vanilla JavaScript',
-        liveDomo: 'https://yasinabdmahmood.github.io/Tower-of-Hanoi/src/',
-        gitHubLink: 'https://github.com/yasinabdmahmood/Tower-of-Hanoi',
+        liveDomo: 'https://yasinabdmahmood.github.io/Awesome-books/',
+        gitHubLink: 'https://github.com/yasinabdmahmood/Awesome-books',
         technologies:['HTML5','CSS3','JavaScript']
     },
     
