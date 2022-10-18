@@ -61,9 +61,14 @@ const Portfolio = () => {
             <div className="container portfolio-page">
                 <h1 className="page-title">
                     <AnimatedLetters
-                        letterClass={letterClass}
-                        strArray={"Skills  &  Experience".split("")}
-                        idx={15}
+                        letterClass={letterClass+'firsr-line'}
+                        strArray={"Skills  &".split("")}
+                        idx={9}
+                    />
+                    <AnimatedLetters
+                        letterClass={letterClass+'second-line'}
+                        strArray={" Experience".split("")}
+                        idx={10}
                     />
                 </h1>
                 <div className="Skills">

@@ -145,3 +145,25 @@
         }
     }
 }
+
+@media screen and (max-width: 900px) {
+    h1.page-title {
+       text-align: center;
+    }
+    .Skills {
+        flex-direction: column;
+        align-items: center;
+           
+           h2 {
+            text-align: center;
+           }
+    
+            
+            ul {
+                li {
+                    text-align: center;
+                }
+            }
+        
+    }
+}
