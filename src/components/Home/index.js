@@ -59,7 +59,7 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <img className='logo' src={logo} />
+        <img className='logo' src={logo} alt="Logo" />
       </div>
 
       <Loader type="pacman" />
