@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
+import logo from '../../assets/images/y.png'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
@@ -58,6 +59,7 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
+        <img className='logo' src={logo} />
       </div>
 
       <Loader type="pacman" />

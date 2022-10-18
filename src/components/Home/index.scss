@@ -1,4 +1,7 @@
 .home-page {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   .text-zone {
     position: absolute;
     left: 10%;
@@ -6,6 +9,8 @@
     transform: translateY(-50%);
     width: 40%;
     max-height: 90%;
+
+    
   }
 
   h1 {
@@ -57,6 +62,32 @@
     font-family: sans-serif;
     letter-spacing: 3px;
     animation: fadeIn 1s 1.8s backwards;
+  }
+
+
+  .logo {
+    float: right;
+    width: 400px;
+    border-radius: 200px;
+    margin-right:10vw;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    
+  }
+  @keyframes logo {
+    0% {
+      
+      transform: rotateY(0deg)
+    }
+    
+  
+    100% {
+      
+      transform: rotateY(180deg)
+    }
   }
 
   .flat-button {
@@ -123,4 +154,17 @@
     left: 0;
     margin: auto;
   }
+  .home-page {
+    flex-direction: column;
+    
+  .logo {
+    float: right;
+    width: 200px;
+    border-radius: 200px;
+    margin: 2rem;
+   
+    
+    
+  }
+}
 }

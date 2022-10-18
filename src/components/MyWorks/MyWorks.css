@@ -1,0 +1,43 @@
+.projects-container {
+  width: calc(100vw - 60px);
+  margin-left: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.projects-container img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .projects-container {
+    width: 100vw;
+    margin-left: 0px;
+    display: flex;
+    align-items: stretch;
+  }
+  .projects-container img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .projects-container {
+    width: 100vw;
+    margin-left: 0px;
+    display: flex;
+    align-items: stretch;
+  }
+  .projects-container img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 678px) {
+  .projects-container {
+    width: 100vw;
+    margin-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=MyWorks.css.map */
