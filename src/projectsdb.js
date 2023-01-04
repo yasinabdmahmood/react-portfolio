@@ -1,6 +1,7 @@
 import p1 from './assets/images/towerofhanoi.png'
 import p2 from './assets/images/todolist.png'
 import p3 from './assets/images/awesomebooks.png'
+import p4 from './assets/images/budget_app.png'
 
 const  projects = [
     {   
@@ -29,6 +30,15 @@ const  projects = [
         liveDomo: 'https://yasinabdmahmood.github.io/Awesome-books/',
         gitHubLink: 'https://github.com/yasinabdmahmood/Awesome-books',
         technologies:['HTML5','CSS3','JavaScript']
+    },
+    {   
+        id:3,
+        img:p4,
+        name:'Budget app',
+        discription: 'Budget app is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+        liveDomo: 'https://budget-app-microverse.onrender.com',
+        gitHubLink: 'https://github.com/yasinabdmahmood/Budget-app',
+        technologies:['Ruby on rails','HTML5','CSS3','Bootstrap']
     },
     
  ]
