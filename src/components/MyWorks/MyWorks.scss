@@ -1,13 +1,20 @@
+.projects-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .projects-container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 .projects-container {
     width: calc(100vw - 60px);
     max-height: 100vh;
     margin-left: 60px;
     display: flex;
     flex-wrap: wrap;
-    overflow: scroll;
-    ::-webkit-scrollbar {
-        display: none;
-      }
+    overflow-y: scroll;
+    
     
     img {
         width: 100%;
