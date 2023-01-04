@@ -1,8 +1,13 @@
 .projects-container {
     width: calc(100vw - 60px);
+    max-height: 100vh;
     margin-left: 60px;
     display: flex;
     flex-wrap: wrap;
+    overflow: scroll;
+    ::-webkit-scrollbar {
+        display: none;
+      }
     
     img {
         width: 100%;
