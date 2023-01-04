@@ -2,6 +2,7 @@ import p1 from './assets/images/towerofhanoi.png'
 import p2 from './assets/images/todolist.png'
 import p3 from './assets/images/awesomebooks.png'
 import p4 from './assets/images/budget_app.png'
+import p5 from './assets/images/resturant_menu.png'
 
 const  projects = [
     {   
@@ -39,6 +40,15 @@ const  projects = [
         liveDomo: 'https://budget-app-microverse.onrender.com',
         gitHubLink: 'https://github.com/yasinabdmahmood/Budget-app',
         technologies:['Ruby on rails','HTML5','CSS3','Bootstrap']
+    },
+    {   
+        id:4,
+        img:p5,
+        name:'Restaurant menu',
+        discription: 'The web app functions as a digital menu for restaurants and cafes that allows you to view what is on their menu with pictures, descriptions, and prices. the user can also start ordering foods and drinks with the desired amount.',
+        liveDomo: 'https://aesthetic-queijadas-f18c90.netlify.app/',
+        gitHubLink: 'https://github.com/yasinabdmahmood/react-resturant-menu',
+        technologies:['React','Redux','Sass']
     },
     
  ]
