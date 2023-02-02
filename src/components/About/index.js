@@ -33,16 +33,16 @@ const About = () => {
             />
           </h1>
           <p>
-              Hello, I’m Yaseen, I’m a Full-stack developer, I build user-friendly,
-              dynamic, well-designed, good-looking, and interactive websites. I'm currently
-              studying coursework at Microverse, a remote software development school where
-              we learn by building projects and collaborating with other devs all around the
-              world via pair programming. 
+          Hi, I'm Yaseen, a Full-stack developer with a passion for creating attractive and
+          engaging websites that are both user-friendly and dynamic. I am a proud graduate of
+          Microverse, a remote software development school that emphasizes hands-on learning 
+          through collaboration. During my time at Microverse, I dedicated over 1200 hours to 
+          coding and honing my skills.
           </p>
           <p align="LEFT">
-              I enjoy the process of thinking and coming up with algorithms to solve
-              particular problems so much so that sometimes I spend my spare-time solving
-              hacker rank challenges
+          In my free time, I continue to challenge myself by tackling algorithms and solving
+          problems on HackerRank. With my extensive coding experience and dedication to the
+          craft, I am ready to bring my skills to new and exciting projects.
           </p>
           
          </div>
