@@ -30,6 +30,7 @@
     .project-container {
         flex-basis: 100%;
         img {
+            object-fit: fill;
             opacity: 1;
         }
     }
