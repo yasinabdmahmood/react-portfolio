@@ -3,6 +3,7 @@ import p2 from './assets/images/todolist.png'
 import p3 from './assets/images/awesomebooks.png'
 import p4 from './assets/images/budget_app.png'
 import p5 from './assets/images/resturant_menu.png'
+import p6 from './assets/images/space_travelers_hub.png'
 
 const  projects = [
     {   
@@ -49,6 +50,15 @@ const  projects = [
         liveDomo: 'https://aesthetic-queijadas-f18c90.netlify.app/',
         gitHubLink: 'https://github.com/yasinabdmahmood/react-resturant-menu',
         technologies:['React','Redux','Sass']
+    },
+    {   
+        id:5,
+        img:p6,
+        name:"Space Traveler's Hub",
+        discription: 'This web application provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions.',
+        liveDomo: 'https://633d3d1994ebcf57859df1b2--glistening-zuccutto-a1444a.netlify.app/',
+        gitHubLink: 'https://github.com/yasinabdmahmood/Space-Travelers-Hub',
+        technologies:['React','Redux']
     },
     
  ]
