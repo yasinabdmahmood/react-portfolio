@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import 'react-notifications/lib/notifications.css';
+import {NotificationContainer, NotificationManager} from 'react-notifications';
+
 import "leaflet/dist/leaflet.css";
 import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css';
 import "leaflet-defaulticon-compatibility";
@@ -28,11 +31,11 @@ const Contact = () => {
       .sendForm('service_xszt5hj', 'template_a9lv3yl', form.current, 'vLVGeHAkuYKCXHfoP')
       .then(
         () => {
-          alert('Message successfully sent!')
-          window.location.reload(false)
+          NotificationManager.success('Message successfully sent!');
+          form.current.reset();
         },
         () => {
-          alert('Failed to send the message, please try again')
+          NotificationManager.error('Failed to send the message, please try again')
         }
       )
   }
@@ -114,6 +117,7 @@ const Contact = () => {
         </div>
       </div>
       <Loader type="pacman" />
+      <NotificationContainer/>
     </>
   )
 }
