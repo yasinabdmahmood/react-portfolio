@@ -26,8 +26,8 @@ function Detail(props) {
                   <div className='div31'>
                     <p>{discription}</p>
                     <div className='div311'>
-                      <a href={liveDomo} target="_blank">See Live</a>
-                      <a href={gitHubLink} target="_blank">GitHub Sourse</a>
+                      <a href={liveDomo} target="_blank" rel="noreferrer" >See Live</a>
+                      <a href={gitHubLink} target="_blank" rel="noreferrer" >GitHub Sourse</a>
                     </div>
                   </div>
                 </div>
