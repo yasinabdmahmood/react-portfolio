@@ -31,11 +31,11 @@ const Contact = () => {
       .sendForm('service_xszt5hj', 'template_a9lv3yl', form.current, 'vLVGeHAkuYKCXHfoP')
       .then(
         () => {
-          NotificationManager.success('Message successfully sent!');
+          NotificationManager.success('Message successfully sent!', 'Success');
           form.current.reset();
         },
         () => {
-          NotificationManager.error('Failed to send the message, please try again')
+          NotificationManager.error('Failed to send the message, please try again','Error')
         }
       )
   }
