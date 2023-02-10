@@ -6,7 +6,9 @@
     top: 0;
     z-index: 3;
     min-height: 500px;
-  
+    .y-logo {
+      border-radius: 25px;
+    }
     .logo {
       display: block;
       padding: 8px 0;
