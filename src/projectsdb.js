@@ -4,6 +4,7 @@ import p3 from './assets/images/awesomebooks.png'
 import p4 from './assets/images/budget_app.png'
 import p5 from './assets/images/resturant_menu.png'
 import p6 from './assets/images/space_travelers_hub.png'
+import p7 from './assets/images/bookstore.png'
 
 const  projects = [
     {   
@@ -58,6 +59,15 @@ const  projects = [
         discription: 'This web application provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions.',
         liveDomo: 'https://633d3d1994ebcf57859df1b2--glistening-zuccutto-a1444a.netlify.app/',
         gitHubLink: 'https://github.com/yasinabdmahmood/Space-Travelers-Hub',
+        technologies:['React','Redux']
+    },
+    {   
+        id:6,
+        img:p7,
+        name:"Bookstore",
+        discription: 'Bookstore is an app that lets you list you favorate books with thier respective author name , you can add new book or delete a book on demand',
+        liveDomo: 'https://bookstore-yaseen.netlify.app/',
+        gitHubLink: 'https://github.com/yasinabdmahmood/Bookstore',
         technologies:['React','Redux']
     },
     
