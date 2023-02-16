@@ -5,7 +5,7 @@ import p4 from './assets/images/budget_app.png'
 import p5 from './assets/images/resturant_menu.png'
 import p6 from './assets/images/space_travelers_hub.png'
 import p7 from './assets/images/bookstore.png'
-
+import p8 from './assets/images/country_fact.png'
 const  projects = [
     {   
         id:0,
@@ -69,6 +69,15 @@ const  projects = [
         liveDomo: 'https://bookstore-yaseen.netlify.app/',
         gitHubLink: 'https://github.com/yasinabdmahmood/Bookstore',
         technologies:['React','Redux']
+    },
+    {   
+        id:7,
+        img:p8,
+        name:"Country facts",
+        discription: 'Continents facts is a a React and Redux SPA application that dispalys interesting information about various countries in the world. It gets all the information that it displays using API request to a server.',
+        liveDomo: 'https://tubular-cupcake-f62e8d.netlify.app/',
+        gitHubLink: 'https://github.com/yasinabdmahmood/Country-facts',
+        technologies:['React','Redux','CSS']
     },
     
  ]
