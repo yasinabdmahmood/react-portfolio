@@ -6,6 +6,7 @@ import p5 from './assets/images/resturant_menu.png'
 import p6 from './assets/images/space_travelers_hub.png'
 import p7 from './assets/images/bookstore.png'
 import p8 from './assets/images/country_fact.png'
+import p9 from './assets/images/math_magician.png'
 const  projects = [
     {   
         id:0,
@@ -78,6 +79,15 @@ const  projects = [
         liveDomo: 'https://tubular-cupcake-f62e8d.netlify.app/',
         gitHubLink: 'https://github.com/yasinabdmahmood/Country-facts',
         technologies:['React','Redux','CSS']
+    },
+    {   
+        id:8,
+        img:p9,
+        name:"Math magicians",
+        discription: 'Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to Make simple calculationsm and Read a random math-related quote.',
+        liveDomo: 'https://nimble-lamington-32e434.netlify.app/',
+        gitHubLink: 'https://github.com/yasinabdmahmood/math_magicians',
+        technologies:['React','JavaScript','CSS']
     },
     
  ]
