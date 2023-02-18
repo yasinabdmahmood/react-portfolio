@@ -7,6 +7,7 @@ import p6 from './assets/images/space_travelers_hub.png'
 import p7 from './assets/images/bookstore.png'
 import p8 from './assets/images/country_fact.png'
 import p9 from './assets/images/math_magician.png'
+import p10 from './assets/images/science_and_technology_summit.png' 
 const  projects = [
     {   
         id:0,
@@ -88,6 +89,15 @@ const  projects = [
         liveDomo: 'https://nimble-lamington-32e434.netlify.app/',
         gitHubLink: 'https://github.com/yasinabdmahmood/math_magicians',
         technologies:['React','JavaScript','CSS']
+    },
+    {   
+        id:9,
+        img:p10,
+        name:"Science and Technology summit",
+        discription: 'This project is a website dedicated to the Science and Technology Summit 2022 conference. The website contains all the information you need to know about the conference, including the schedule, speakers, and other important details.',
+        liveDomo: 'https://yasinabdmahmood.github.io/Capstone-Project/',
+        gitHubLink: 'https://github.com/yasinabdmahmood/Capstone-Project',
+        technologies:['HTML5','CSS3','JavaScript']
     },
     
  ]
