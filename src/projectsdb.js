@@ -9,6 +9,7 @@ import p8 from './assets/images/country_fact.png'
 import p9 from './assets/images/math_magician.png'
 import p10 from './assets/images/science_and_technology_summit.png' 
 import p11 from './assets/images/english_is_fun.png' 
+import p12 from './assets/images/drawing_app.png'
 const  projects = [
     {   
         id:0,
@@ -109,7 +110,15 @@ const  projects = [
         gitHubLink: 'https://github.com/yasinabdmahmood/english-is-fun',
         technologies:['React','CSS3','Next.js']
     },
-    
+    {   
+        id:11,
+        img:p12,
+        name:'Drawing app',
+        discription: 'Unleash your creativity with HappyDrawing, a versatile React drawing app. Create stunning designs, sketches, and doodles with customizable features and a wide color palette. Start your artistic journey today!',
+        liveDomo: 'https://happydrawing.netlify.app/',
+        gitHubLink: 'https://github.com/yasinabdmahmood/react-drawing-app',
+        technologies:['React','Redux','CSS3']
+    },
  ]
 
  export default projects
