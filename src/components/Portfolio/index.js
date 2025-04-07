@@ -83,6 +83,7 @@ const Portfolio = () => {
                         <ul>
                             <li><span>Javascript</span></li>
                             <li><span>Ruby</span></li>
+                            <li><span>Node js</span></li>
                             <li><span>Html</span></li>
                             <li><span>CSS</span></li>
                         </ul>
@@ -96,10 +97,10 @@ const Portfolio = () => {
                     />
                      </h2>
                         <ul>
+                            <li><span>Angular</span></li>
                             <li><span>Bootstrap</span></li>
                             <li><span>React</span></li>
                             <li><span>Ruby onRails</span></li>
-                            
                         </ul>
                     </div>
                     <div className="cata">
@@ -112,6 +113,7 @@ const Portfolio = () => {
                      </h2>
                         <ul>
                             <li><span>Githaub</span></li>
+                            <li><span>Githaub</span></li>
                             <li><span>Gitllab</span></li>
                             <li><span>TDD</span></li>
                             <li><span>Git</span></li>
@@ -119,6 +121,8 @@ const Portfolio = () => {
                             <li><span>Mentoring</span></li>
                             <li><span>Netlify</span></li>
                             <li><span>jQuery</span></li>
+                            <li><span>AWS EC2</span></li>
+                            <li><span>Linux (Ubuntu/Debian)</span></li>
                             <li><span>Pair Programming</span></li>
                             <li><span>Chrome Developer Tools</span></li>
                         </ul>

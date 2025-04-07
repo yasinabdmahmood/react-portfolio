@@ -8,29 +8,39 @@ import { useState } from 'react';
 
 function MyWorks(props) {
     const projects = projectsdb;
-    const [show,setShow] = useState(false)
-    const [currentId,setCurrentId] = useState(0);
-    const hidePopUpWindow = () =>{
+    const [show, setShow] = useState(false)
+    const [currentId, setCurrentId] = useState(0);
+    const hidePopUpWindow = () => {
         setShow(false)
     }
-    const showPopUp = (id) =>{
+    const showPopUp = (id) => {
         setShow(true)
-        
+
         setCurrentId(id)
-     
+
     }
 
     return (
         <div className='projects-container'>
-           {projects.map(el => {
-            return <Project img={el.img} name={el.name} id={el.id} callback={showPopUp} key={el.id} />
-           })},
-           <Detail 
-           show={show} 
-           project={projects[currentId]} 
-           hidePopUpWindow={hidePopUpWindow}/>
-            
+            {[...projects].reverse().map(el => {
+                return (
+                    <Project
+                        img={el.img}
+                        name={el.name}
+                        id={el.id}
+                        callback={showPopUp}
+                        key={el.id}
+                    />
+                );
+            })}
+
+            <Detail
+                show={show}
+                project={projects[projects.findIndex(el => el.id === currentId)]}
+                hidePopUpWindow={hidePopUpWindow}
+            />
         </div>
+
     );
 }
 

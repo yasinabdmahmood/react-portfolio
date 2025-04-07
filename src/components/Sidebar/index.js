@@ -5,9 +5,10 @@ import LogoSubtitle from '../../assets/images/yaseen.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
-  faGithub,  
+  faGithub,
   faGitlab,
   faAngellist,
+  faWhatsapp,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
@@ -25,7 +26,7 @@ const Sidebar = () => {
 
   return (
     <div className="nav-bar">
-      <Link 
+      <Link
         className="logo"
         to="/"
         onClick={() => setShowNav(false)}>
@@ -33,14 +34,14 @@ const Sidebar = () => {
         <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
       </Link>
       <nav className={showNav ? 'mobile-show' : ''}>
-        <NavLink 
+        <NavLink
           exact="true"
           activeclassname="active"
           to="/"
           onClick={() => setShowNav(false)}>
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
-        <NavLink 
+        <NavLink
           activeclassname="active"
           className="about-link"
           to="/about"
@@ -71,7 +72,7 @@ const Sidebar = () => {
         >
           <FontAwesomeIcon icon={faEye} color="#4d4d4e" />
         </NavLink>
-        <FontAwesomeIcon 
+        <FontAwesomeIcon
           onClick={() => setShowNav(false)}
           icon={faClose}
           color="#ffd700"
@@ -79,6 +80,20 @@ const Sidebar = () => {
           className='close-icon' />
       </nav>
       <ul>
+        <li>
+          <a
+            href="https://wa.me/9647507199736"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faWhatsapp}
+              color="#4d4d4e"
+              className="anchor-icon"
+            />
+          </a>
+        </li>
+
         <li>
           <a
             href="https://www.linkedin.com/in/yaseen-abdalwahid/"
@@ -128,12 +143,12 @@ const Sidebar = () => {
           </a>
         </li>
       </ul>
-      <FontAwesomeIcon 
-          onClick={() => setShowNav(true)}
-          icon={faBars}
-          color="#ffd700"
-          size="3x"
-          className='hamburger-icon' />
+      <FontAwesomeIcon
+        onClick={() => setShowNav(true)}
+        icon={faBars}
+        color="#ffd700"
+        size="3x"
+        className='hamburger-icon' />
     </div>
   )
 }
